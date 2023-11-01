@@ -1,7 +1,7 @@
 # My Personal Portfolio
 
 Description
-This repository contains the source code for Wisdom Onwuchekwa's personal portfolio website. It showcases Wisdom's skills, projects, and provides a way for others to get in touch.
+This repository contains the source code for my personal portfolio website. It showcases my skills, projects, and provides a way for others to get in touch.
 
 Table of Contents
 * Installation
@@ -31,7 +31,7 @@ To view the website locally, open the index.html file in a web browser.
 * Contact form for inquiries.
 
 ## Portfolio
-Here are some of the projects included in Wisdom's portfolio:
+Here are some of the projects included in my portfolio:
 * Nigeria Fashion Kings - Introducing a fashion website showcasing the cutting-edge fashion trends, standout models, and influential figures in the fashion industry.
 * Miles King Photography - A photography portfolio website dedicated to showcasing the impressive body of work by Miles King.
 * Scholarship Website - A platform connecting deserving students with life-changing scholarship opportunities.
@@ -40,7 +40,7 @@ Here are some of the projects included in Wisdom's portfolio:
 * Imgur Clone - A personal project replicating the functionality of Imgur, a widely used image hosting and sharing platform.
 
 ## Contact
-Feel free to reach out to Wisdom at wisdompandovic@gmail.com for any inquiries or collaboration opportunities.
+Feel free to reach out to me at wisdompandovic@gmail.com for any inquiries or collaboration opportunities.
 
 ## License
 This project is licensed under the MIT License.
