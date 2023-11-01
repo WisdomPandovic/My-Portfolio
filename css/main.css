@@ -106,6 +106,10 @@ background-color: whitesmoke;
     color: #fff;
   }
 
+  .fab{
+    padding: 10px;
+  }
+
   @media (max-width: 767px) {
     #footer {
         margin-top: 200px;
