@@ -1,0 +1,470 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.scss">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbarDark">
+        <div class="container">
+            <a class="navbar-brand" href="#">PANDOVIC.DEV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+    <section class="bg-image" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="my-name">Hi, I'm Wisdom Onwuchekwa</h2>
+                <p class="my_desc">I am a Full Stack Developer base in Abuja.</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h1 class="">Get to know me!</h1>
+            <div class="row mt-4">
+
+                <div class="col-lg-8">
+                    <p> Onwuchekwa is a versatile professional with a robust foundation in technology and an insatiable
+                         passion for learning. Experienced in web development, Onwuchekwa brings expertise in modern 
+                         programming languages and frameworks, including JavaScript, React JS, Node JS, CSS, and HTML. With a 
+                         knack for problem-solving, a strong collaborative spirit, and effective communication skills,
+                          Onwuchekwa is well-equipped to contribute to diverse projects and readily adapt to new 
+                          challenges.
+                        
+                    </p>
+                    <p>Moreover, Onwuchekwa is open to leveraging their technical proficiency and adaptable mindset in roles spanning various domains, making them a valuable asset in a multitude of professional settings.</p>
+                    <p>Additionally, I like sharing codes related with the stuff that I have learned throughout the 
+                        years in Dev Community. Go ahead and connect or Follow me on my Linkedin and Github where I 
+                        post helpful content related on Web Development and Programming.</p>
+                    
+                    <div class="row mt-3">
+                        <p> I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <img src="./image/DSC_0111LR.jpg" class= "imageAboutPage" alt="">
+                </div>
+            </div>
+    </section>
+
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">Services</h1>
+            <p class="text-center">I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class="fas servicesIcon fa-clock"></i>
+                            <h4 class="card-title mt-3"  onclick="showFormone()">Website Development</h4>
+                            <p class="card-text mt-3">I specialize in creating dynamic and
+                                 user-friendly websites tailored to meet your unique needs. I combine cutting-edge 
+                                 technology with creative design to bring your vision to life. With a keen eye for 
+                                 design and a deep understanding of development technologies, I craft websites that
+                                  not only look great but also function flawlessly.
+                            </p>
+                            <div class="overlay" id="overlay"></div>
+                            <div class="popup-form" id="popup-form-one">
+                                <div class="flex">
+                                    <p></p>
+                                    <button type="button" onclick="closeFormone()">Go Back</button>
+                                </div>
+                                <h3>My services include:</h3>
+                                <p>Custom website design and development</p>
+                                <p>Responsive and mobile-friendly layouts</p>
+                                <p>User-friendly navigation and intuitive UI/UX</p>
+                                <p>Performance optimization for fast loading times</p>
+                                <p>Search engine optimization (SEO) best practices</p>
+                                <p>Integration with content management systems (CMS)</p>
+                                
+                                <p>I believe in the power of a well-crafted website to make a lasting impression. 
+                                    Whether you're a small business owner, a freelancer, or someone looking to showcase
+                                     your work, I'm here to help bring your ideas to life.
+                                </p>
+                                <p>Let's collaborate and create a website that truly represents you. Get in touch 
+                                    with me to start our journey together!"
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-layer-group'></i>
+                            <h4 class="card-title mt-3" onclick="showFormtwo()">Website Design</h4>
+                            <p class="card-text mt-3">Crafting visually stunning and intuitively navigable websites is my 
+                                passion. I specialize in creating designs that not only capture attention but also deliver 
+                                an exceptional user experience. With a keen focus on aesthetics and functionality, I bring
+                                 your ideas to life through carefully curated layouts and engaging visuals.
+                            </p>
+                            <div class="overlay" id="overlay"></div>
+                            <div class="popup-form" id="popup-form-two">
+                                <div class="flex">
+                                    <p></p>
+                                    <button type="button" onclick="closeFormtwo()">Go Back</button>
+                                </div>
+                                <h3>My approach includes:</h3>
+                                <p>Tailored designs to reflect your brand identity</p>
+                                <p>Intuitive user interfaces for seamless navigation</p>
+                                <p>Mobile responsiveness for a seamless experience on any device</p>
+                                <p>Integration of interactive elements for user engagement</p>
+                                
+                                <p>Whether you're launching a personal blog, a portfolio site, or an e-commerce platform,
+                                     I'm dedicated to delivering a website that not only meets but exceeds your 
+                                     expectations.
+                                </p>
+                                <p>Let's collaborate and turn your vision into a captivating online presence. Contact me to get started!"
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='far servicesIcon fa-check-circle'></i>
+                            <h4 class="card-title mt-3" onclick="showFormthree()">Website Deployment</h4>
+                            <p class="card-text mt-3">Efficiently launching your website into the digital world is a 
+                                crucial step in its success. I specialize in seamless website deployment, ensuring that
+                                 your online presence is not only visually impressive but also accessible to your target
+                                  audience.
+                            </p>
+                            <div class="overlay" id="overlay"></div>
+                            <div class="popup-form" id="popup-form-three">
+                                <div class="flex">
+                                    <p></p>
+                                    <button type="button" onclick="closeFormthree()">Go Back</button>
+                                </div>
+                                <h3>My deployment process includes:</h3>
+                                <p>Testing the website on various platforms and devices</p>
+                                <p>Configuring servers for optimal performance</p>
+                                <p>Implementing security measures to protect against vulnerabilities</p>
+                                <p>Setting up content management systems for easy updates</p>
+                                
+                                <p>I understand the importance of a smooth and error-free deployment. Whether you're 
+                                    launching a personal blog or a full-scale e-commerce platform, I'm committed to
+                                     making sure your website goes live without a hitch.
+                                </p>
+                                <p>Let's work together to ensure your website's successful launch. Contact me to discuss your
+                                     deployment needs!"
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-search'></i>
+                            <h4 class="card-title mt-3" onclick="showFormfour()">SEO</h4>
+                            <p class="card-text mt-3">Boosting your online visibility is essential in today's digital
+                                 landscape, and that's where my expertise in Search Engine Optimization (SEO) comes in. 
+                                 I specialize in optimizing websites to rank higher on search engine results pages, 
+                                 driving organic traffic and increasing your online presence.
+                            </p>
+                            <div class="overlay" id="overlay"></div>
+                            <div class="popup-form" id="popup-form-four">
+                                <div class="flex">
+                                    <p></p>
+                                    <button type="button" onclick="closeFormfour()">Go Back</button>
+                                </div>
+                                <h3>My SEO services include:</h3>
+                                <p>Keyword research and analysis for targeted content</p>
+                                <p>On-page optimization to enhance website relevance</p>
+                                <p>Technical SEO to improve site performance and indexing</p>
+                                <p>Off-page optimization through backlink building and outreach</p>
+                                
+                                <p>I'm dedicated to staying updated with the latest SEO trends and algorithms to ensure 
+                                    your website stays competitive. Whether you're a small business or a personal
+                                     blogger, I'll work closely with you to develop a customized SEO strategy that
+                                      aligns with your goals.
+                                </p>
+                                <p>Let's work together to elevate your online presence and reach your target audience 
+                                    effectively. Contact me to discuss your SEO needs!"
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-shield-alt'></i>
+                            <h4 class="card-title mt-3"  onclick="showForm()">DevOps</h4>
+                            <p class="card-text mt-3">Streamlining the development and deployment process is crucial for
+                                 ensuring the reliability and efficiency of your web applications. As a DevOps 
+                                 specialist, I focus on bridging the gap between development and operations, creating a
+                                 seamless workflow that enhances productivity and minimizes downtime.
+                            </p>
+                            <div class="overlay" id="overlay"></div>
+                            <div class="popup-form" id="popup-form">
+                                <div class="flex">
+                                    <p></p>
+                                    <button type="button" onclick="closeForm()">Go Back</button>
+                                </div>
+                                <h3>My DevOps services include:</h3>
+                                <p>Continuous integration and continuous deployment (CI/CD) implementation</p>
+                                <p>Automation of development, testing, and deployment processes</p>
+                                <p>Infrastructure as code (IaC) for scalable and reliable infrastructure management</p>
+                                <p>Monitoring and performance optimization for enhanced application reliability</p>
+                                
+                                <p>I understand the importance of a well-orchestrated DevOps strategy in today's 
+                                    fast-paced digital landscape. Whether you're launching a new project or looking to 
+                                    optimize an existing one, I'm committed to ensuring your applications run smoothly 
+                                    and efficiently.
+                                </p>
+                                <p>Let's collaborate to implement a robust DevOps strategy that elevates your
+                                     development process. Contact me to discuss your DevOps needs!"
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card servicesText">
+                        <div class="card-body">
+                            <i class='fas servicesIcon fa-wrench'></i>
+                            <h4 class="card-title mt-3" onclick="showFormfive()">QA</h4>
+                            <p class="card-text mt-3">Ensuring the highest level of quality in your web projects is my
+                                 top priority. As a dedicated Quality Assurance specialist, I meticulously review and 
+                                 test every aspect of your website to guarantee it meets the highest industry standards.
+                            </p>
+                            <div class="overlay" id="overlay"></div>
+                            <div class="popup-form" id="popup-form-five">
+                                <div class="flex">
+                                    <p></p>
+                                    <button type="button" onclick="closeFormfive()">Go Back</button>
+                                </div>
+                                <h3>My QA services include:</h3>
+                                <p>Thorough testing of functionality to identify and rectify any bugs or issues</p>
+                                <p>Cross-browser and cross-device compatibility testing for a seamless user experience</p>
+                                <p>Performance testing to optimize loading times and overall responsiveness</p>
+                                <p>Security testing to safeguard against potential vulnerabilities</p>
+                                
+                                <p>I understand the critical role that quality assurance plays in delivering a 
+                                    successful website. Whether you're launching a new site or refining an existing one,
+                                     I'm committed to providing you with a flawless end product.
+                                </p>
+                                <p>Let's collaborate to ensure your website exceeds expectations. Contact me to discuss your 
+                                    QA needs!"
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center ">Portfolio</h1>
+            <p class="text-center">I design and develop services for customers of all sizes, specializing in creating stylish, modern websites, web services and online stores.</p>
+            <div class="row">
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="./image/ariana9.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Nigeria Fashion Kings.</h4>
+                            <p class="card-text">Introducing a fashion website
+                                an engaging and interactive website spotlighting the cutting-edge fashion trends, 
+                                standout models, and influential figures in the fashion industry.
+                            </p>
+                            <div class="text-center">
+                                <a href="#" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="./image/HADDY_1918LR.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Miles King Photography</h4>
+                            <p class="card-text">Introducing a photography portfolio website dedicated to showcasing
+                                the impressive body of work by Miles King. Explore the artist's profile and browse 
+                                through a diverse collection of captivating photographs.</p>
+                            <div class="text-center">
+                                <a href="https://Wisdompandovic.github.io/Miles-King-Photography" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="./image/Screenshot_20231023-092114_Brave.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Scholarship Website</h4>
+                            <p class="card-text">Introducing
+                                a platform dedicated to connecting deserving students with life-changing scholarship opportunities. 
+                            </p>
+                            <div class="text-center">
+                                <a href="https://scholarship-app-website.vercel.app/index.html" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+            </div>
+            <br>
+            <div class="row">
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="./image/Screenshot_20231023-085851_Brave.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Costco Clone</h4>
+                            <p class="card-text">Created a project centered around Costco, a global multinational corporation
+                                 renowned for its distinctive membership-based retail approach.</p>
+                            <div class="text-center">
+                                <a href="https://costco-project-eta.vercel.app/" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="./image/Screenshot_20231023-085923_Brave.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Rimowa Clone</h4>
+                            <p class="card-text">Crafted a project centered around Rimowa, a distinguished luxury luggage brand
+                                 celebrated for its exceptional quality and cutting-edge designs.</p>
+                            <div class="text-center">
+                                <a href="https://rimowa-project.vercel.app" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="./image/Screenshot_20231023-083834_Brave.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Imgur Clone</h4>
+                            <p class="card-text">Developed a personal project, replicating the functionality of Imgur, a widely used image hosting and sharing platform</p>
+                            <div class="text-center">
+                                <a href="https://github.com/WisdomPandovic/imgur-project" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+            <p class="text-center">Are you interested in my work or have you got any questions? <strong>Let's get in touch!</strong></p>
+
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=abuja&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                            </iframe>
+                        </div>
+                        <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                        <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                        </style>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form>
+                        <input type="text" class="form-control form-control-lg" placeholder="Name">
+                        <input type="email" class="form-control mt-3" placeholder="Email">
+                        <input type="text" class="form-control mt-3" placeholder="Subject">
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                        </div>
+                    </form>
+                    <button type="button" class="btn btn-success mt-3">Contact Me</button>
+                    
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- <footer class = "container-fluid " id="footer">
+        <div class="row pb-4">
+            <div class="col-lg-6 mt-4 abt pb-4"><h3>Wisdom Pandovic</h3>
+                <p>A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+                </div>
+                <div class="social-icons mt-4 col-lg-6 pl-8"  > 
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                   
+                </div>
+        </div>
+        <p >&#169;Pandovic, 2023</p>
+    </footer> -->
+    
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    
+<script src="./css/main.js"></script>
+</body>
+</html>

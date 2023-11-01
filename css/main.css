@@ -1,0 +1,103 @@
+
+body{
+font-family: Arial,sans-serif;;
+background-color: whitesmoke;
+}
+
+.nav-item{
+    letter-spacing: 2px;
+}
+
+.navbar-brand:hover{
+    color:red;
+}
+
+.nav-item:hover{
+    background-color:red;
+}
+
+.navbarScroll.navbarDark {
+    background-color: black;
+    
+}
+
+.nav-link, .navbar-brand{
+    color: aliceblue!important; 
+}
+
+.bg-image {
+    height:100vh;
+    background: url('../image/DSC_0279LR.jpg');
+    background-size:cover;
+    position:relative;
+}
+
+.my-name {
+    font-size: 15px;
+}
+.my_desc {
+    font-size: 20px;
+}
+.hero-text {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+  
+}
+
+#portfolio{
+    background-color: whitesmoke;
+}
+#contact {
+    padding-bottom: 4rem;
+    background-color: lavender;
+    height: 800px;
+}
+
+.imageAboutPage {
+    width: 100%;
+}
+
+#services{
+    background-color: bisque;
+}
+
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+
+.card-img-top{
+    height: 450px;
+}
+
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+    color: #008000;
+}
+
+#footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+.abt{
+    text-align: left;
+
+    h3{
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+
+    p{
+        font-size: 15px;
+      }
+}
+
+.social-icons {
+    font-size: 20px;
+    cursor: pointer;
+    text-align: right;
+
+    .fab {
+        color: #fff;
+    }
+    
+}
