@@ -58,7 +58,7 @@ background-color: whitesmoke;
 #contact {
     padding-bottom: 4rem;
     background-color: lavender;
-    height: 800px;
+    /* height: 800px; */
 }
 
 .imageAboutPage {
@@ -108,7 +108,7 @@ background-color: whitesmoke;
 
   @media (max-width: 767px) {
     #footer {
-        margin-top: 300px;
+        margin-top: 900px;
       }
 
       .social-icons {
@@ -121,7 +121,4 @@ background-color: whitesmoke;
       .fab{
         padding: 10px;
       }
-
-  }
-  
-  
+  } 
