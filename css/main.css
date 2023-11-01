@@ -108,7 +108,7 @@ background-color: whitesmoke;
 
   @media (max-width: 767px) {
     #footer {
-        margin-top: 300px;
+        margin-top: 200px;
       }
 
       .social-icons {
