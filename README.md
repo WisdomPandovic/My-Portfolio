@@ -38,6 +38,7 @@ Here are some of the projects included in my portfolio:
 * Costco Clone - A project centered around Costco, a global multinational corporation renowned for its distinctive membership-based retail approach.
 * Rimowa Clone - A project centered around Rimowa, a distinguished luxury luggage brand celebrated for its exceptional quality and cutting-edge designs.
 * Imgur Clone - A personal project replicating the functionality of Imgur, a widely used image hosting and sharing platform.
+* FunFlix Movie - A personal project aimed at providing users with a seamless experience to explore and discover their favorite movies and TV shows.
 
 ## Contact
 Feel free to reach out to me at wisdompandovic@gmail.com for any inquiries or collaboration opportunities.
